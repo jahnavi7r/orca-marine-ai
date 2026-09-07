@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_name": "Rushikonda Marine Eco-Reserve",
+        "category": "MPA",
+        "restriction": "NO_FISHING"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [83.370, 17.770],
+            [83.420, 17.770],
+            [83.420, 17.810],
+            [83.370, 17.810],
+            [83.370, 17.770]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_name": "Bay of Bengal Offshore Sector 4",
+        "category": "PFZ",
+        "chlorophyll_mg_m3": 1.45,
+        "sst_celsius": 28.2,
+        "satellite_sensor": "Oceansat-3 / OCM-3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.4500, 17.8500]
+      }
+    }
+  ]
+}
